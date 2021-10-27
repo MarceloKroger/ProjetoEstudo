@@ -1,4 +1,5 @@
 ﻿using System;
+using Modelo;
 
 namespace Projeto
 {
@@ -8,7 +9,7 @@ namespace Projeto
         {
             Servicos servicos = new Servicos();
             PrecosServicos precos = new PrecosServicos();
-            Barbeiros barbeiros = new Barbeiros();
+            Barbeiro barbeiros = new Barbeiro();
             Produtos produtos = new Produtos();
             LocalFisico local = new LocalFisico();
             string resposta;
